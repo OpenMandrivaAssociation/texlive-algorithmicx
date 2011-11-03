@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/algorithmicx
+# catalog-date 2006-10-12 12:11:58 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-algorithmicx
 Version:	20061012
 Release:	1
@@ -48,6 +54,7 @@ native language.
 %doc %{_texmfdistdir}/doc/latex/algorithmicx/README
 %doc %{_texmfdistdir}/doc/latex/algorithmicx/algorithmicx.pdf
 %doc %{_texmfdistdir}/doc/latex/algorithmicx/algorithmicx.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ native language.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
