@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-algorithmicx
 Version:	20061012
-Release:	7
+Release:	8
 Summary:	The algorithmic style you always wanted
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/algorithmicx
