@@ -1,6 +1,6 @@
 Name:		texlive-algorithmicx
 Version:	15878
-Release:	1
+Release:	2
 Summary:	The algorithmic style you always wanted
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/algorithmicx
