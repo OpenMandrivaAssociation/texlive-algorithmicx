@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	The algorithmic style you always wanted
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/algorithmicx
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/algorithmicx
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/algorithmicx.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/algorithmicx.doc.r%{version}.tar.xz
